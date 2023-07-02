@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tandartsafspraak</title>
+    </head>
+    <body>
+        <form id="contactform" action="https://formspree.io/f/mqkvzeqk" method="post">
+        <h1>Tandarts afspraak</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <br> Mauris malesuada ante non neque sollicitudin lacinia. 
+            <br> Phasellus eu erat dui. Nulla sed nisl non nibh tincidunt interdum. 
+            <br> iaculis nec lorem sodales ultricies. Sed ante quam, luctus iaculis hendrerit id, dapibus vitae dui. 
+            <br> Ut tempor libero nec nunc congue, eget suscipit</p>
+            <figure>
+                <img 
+                src="https://thumbs.dreamstime.com/b/dentist-holding-dental-equipment-143817967.jpg"
+                alt="materiaal" title="pijnlijk" width="300" style="vertical-align: top;">
+                <img
+                src="https://thumbs.dreamstime.com/b/animal-dentist-gopher-sitting-dental-chair-his-dog-31744502.jpg"
+                alt="grappig" title="kinderen" width="300" style="vertical-align: middle;">
+                <img
+                src="https://thumbs.dreamstime.com/b/dentist-cutlery-18687124.jpg"
+                alt="materiaal" title="gaatje" width="300" style="float: right">
+            </figure>
+                        <fieldset>
+                            <legend> <strong> <h3>Persoonlijke gegevens</h3></strong></legend>
+                           <table width="600" border="0">
+                           <tbody>
+                           <tr>
+                           <td width="200"><b>Uw naam</b></td>
+                           <td width="400"><input type="text" name="Uw naam" placeholder="voor en achternaam"></td>
+                           </tr>
+                           <tr>
+                            <td> <b>Uw geboortedatum</b>
+                            <td> <input type="date" name="datum" max="2080-12-31"></td>
+                           </tr>
+                           <tr>
+                                <td><b>Uw e-mailadres</b></td>
+                                <td><input type="email" name="emailadres"></td>
+                           </tr>
+                           <tr>
+                                <td><b>Uw adres en huisnummer</b></td>
+                                <td><input type="text" name="uw adres"></td>
+                            </tr>
+                            <tr>
+                                <td><b>Uw postcode</b></td>
+                                <td><input type="text" name="uw postcode"></td>
+                            </tr>
+                            <tr>
+                                <td><b>Uw woonplaats</b></td>
+                                <td><input type="text" name="uw woonplaats"></td>
+                            </tr>
+                           <tr>
+                           </tr>
+                           <tr>
+                           <td><b>Uw telefoonnummer</b></td>
+                           <td><input type="tel" name="telefoonnummer"></td>
+                           </tr>
+                           
+                           </tbody>
+                           </table>            
+                        </fieldset>
+                <fieldset>
+                    <legend> <strong> <h3>Beschrijving van de klachten</h3></strong></legend>
+                            <b>Selecteer uw klachten</b><br>
+                                <input type="checkbox" name="Klachten" value="kiespijn">Kiespijn <br>
+                                 <input type="checkbox" name="Klachten" value="bloedend tandvlees">Bloedend tandvlees <br>
+                                 <input type="checkbox" name="Klachten" value="afgebroken tand">Afgebroken tand <br>
+                                 <input type="checkbox" name="Klachten" value="stekende pijn in uw gebit">stekende pijn in uw gebit <br>
+                                 <input type="checkbox" name="Klachten" value="weet niet hoe ik moet tanden poetsen">weet niet hoe ik moet tanden poesten <br><br>
+                                 <label for="foto van uw gebit">Foto van uw gebit:</label>
+                                 <input type="file" id="foto van uw gebit" name="foto van uw gebit"><br><br>      
+                </fieldset>
+                <Fieldset>
+                    <legend> <strong> <h3>Toelichting van de klachten</h3></strong></legend>
+                    <td> <b>Aanvuling op uw klachten</b></td> <br>
+                        <textarea name="message"  maxlength="1500">
+                        </textarea> 
+                        <tr>
+                            <br>
+                            <td> <b>Datumkiezer</b> <br>
+                            <td> <input type="date" name="datum" max="2080-12-31"></td>
+                           </tr>
+                </Fieldset>
+            <tr>
+                <br>
+                <td><button type="submit" name="verzendknop">
+                <strong>Verzend</strong></button></td>
+            </tr>   
+        </form>    
+    </body>
+</html>
